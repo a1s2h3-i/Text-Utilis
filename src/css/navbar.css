@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: #261965;
+    z-index: 1;
+    color: white;
+}
+
+.navlink {
+    flex-direction: row;
+    align-items: center;
+}
+
+.homeLink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#darkModeEnablerDisabler{
+    border-width: 0px;
+    width: 15vw;
+    min-width: 100px;
+    margin: 5px;
+    margin-left: 70px;
+    padding: 0.375rem 0.375rem;
+    border-radius: 5px;
+    transition: all ease-in 0.15s;
+    font-weight: 600;
+    color: white;
+    background-color: #6013b2;
+}
+
+#darkModeEnablerDisabler:hover{
+    background-color: #710e87;
+}
+
+#darkModeEnablerDisabler:focus:active{
+    background-color: purple;
+}
